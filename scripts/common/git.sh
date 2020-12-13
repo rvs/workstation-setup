@@ -8,8 +8,8 @@ brew install git-together
 brew install git-author
 brew install vim
 
-brew cask install rowanj-gitx
-brew cask install sourcetree
+brew install [--cask] install rowanj-gitx
+brew install [--cask] install sourcetree
 
 echo
 echo "Putting a sample git-pair file in ~/.pairs"
